@@ -1,3 +1,3 @@
 export const getLocale = () => {
-  return window.navigator.language.split("-")[0];
+    return window.navigator.language.split('-')[0];
 };

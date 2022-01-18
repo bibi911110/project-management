@@ -27,18 +27,18 @@ app.use(passport.initialize());
 require('./db/passport')(passport);
 
 app.use('/api', [
-  roomRouter,
-  messageRouter,
-  userRouter,
-  projectRouter,
-  issueRouter,
-  issueTypeRouter,
-  avatarFileUploadRouter,
-  priorityRouter,
-  kanbanTypeRouter,
+    roomRouter,
+    messageRouter,
+    userRouter,
+    projectRouter,
+    issueRouter,
+    issueTypeRouter,
+    avatarFileUploadRouter,
+    priorityRouter,
+    kanbanTypeRouter,
 ]);
 
 app.listen(apiPort, function (err) {
-  if (err) console.log(err);
-  console.log('Server listening on port: ', apiPort);
+    if (err) console.log(err);
+    console.log('Server listening on port: ', apiPort);
 });

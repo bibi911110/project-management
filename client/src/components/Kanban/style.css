@@ -40,20 +40,28 @@
     font-weight: 600;
 }
 
-.drag-column-backlog .drag-column-header, .drag-column-backlog .is-moved, .drag-column-backlog .drag-options {
-    background: #FB7D44;
+.drag-column-backlog .drag-column-header,
+.drag-column-backlog .is-moved,
+.drag-column-backlog .drag-options {
+    background: #fb7d44;
 }
 
-.drag-column-todo .drag-column-header, .drag-column-todo .is-moved, .drag-column-todo .drag-options {
-    background: #2A92BF;
+.drag-column-todo .drag-column-header,
+.drag-column-todo .is-moved,
+.drag-column-todo .drag-options {
+    background: #2a92bf;
 }
 
-.drag-column-in-progress .drag-column-header, .drag-column-in-progress .is-moved, .drag-column-in-progress .drag-options {
-    background: #F4CE46;
+.drag-column-in-progress .drag-column-header,
+.drag-column-in-progress .is-moved,
+.drag-column-in-progress .drag-options {
+    background: #f4ce46;
 }
 
-.drag-column-done .drag-column-header, .drag-column-done .is-moved, .drag-column-done .drag-options {
-    background: #00B961;
+.drag-column-done .drag-column-header,
+.drag-column-done .is-moved,
+.drag-column-done .drag-options {
+    background: #00b961;
 }
 
 .drag-column-header {
@@ -103,7 +111,7 @@
 }
 
 .drag-item:hover {
-    background-color: #EBECF0;
+    background-color: #ebecf0;
 }
 
 .drag-item .top {
