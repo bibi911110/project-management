@@ -1,6 +1,6 @@
 const express = require('express');
 const verifyToken = require('../db/verifyToken');
-const UserAvatarController = require('../controllers/user-avatar-controller');
+const UserAvatarController = require('../controllers/user-avatar');
 
 const router = express.Router();
 

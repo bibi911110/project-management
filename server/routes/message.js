@@ -1,6 +1,6 @@
 const express = require('express');
 const verifyToken = require('../db/verifyToken');
-const MessageController = require('../controllers/message-controller');
+const MessageController = require('../controllers/message');
 
 const router = express.Router();
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const verifyToken = require('../db/verifyToken');
-const IssueTypeController = require('../controllers/issuetype-controller');
+const IssueTypeController = require('../controllers/issuetype');
 
 const router = express.Router();
 

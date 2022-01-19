@@ -1,6 +1,6 @@
 const express = require('express');
 const verifyToken = require('../db/verifyToken');
-const RoomController = require('../controllers/room-controller');
+const RoomController = require('../controllers/room');
 
 const router = express.Router();
 

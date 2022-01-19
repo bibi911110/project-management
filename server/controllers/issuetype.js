@@ -1,4 +1,4 @@
-const IssueType = require('../db/models/issuetype-model');
+const IssueType = require('../db/models/issuetype');
 
 const createIssueType = async (req, res) => {
     const body = req.body;

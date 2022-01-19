@@ -1,4 +1,4 @@
-const Issue = require('../db/models/issue-model');
+const Issue = require('../db/models/issue');
 
 const createIssue = async (req, res) => {
     const body = req.body;

@@ -1,6 +1,6 @@
 const express = require('express');
 const verifyToken = require('../db/verifyToken');
-const IssueController = require('../controllers/issue-fileupload-controller');
+const IssueController = require('../controllers/issue-fileupload');
 
 const router = express.Router();
 

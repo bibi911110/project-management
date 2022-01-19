@@ -1,6 +1,6 @@
 const multer = require('multer');
 const fs = require('fs');
-const UserAvatar = require('../db/models/user-avatar-model');
+const UserAvatar = require('../db/models/user-avatar');
 
 const avatarDir = 'files/avatars';
 const storage = multer.diskStorage({

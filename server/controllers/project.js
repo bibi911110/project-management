@@ -1,5 +1,5 @@
-const Project = require('../db/models/project-model');
-const Issue = require('../db/models/issue-model');
+const Project = require('../db/models/project');
+const Issue = require('../db/models/issue');
 
 const createProject = async (req, res) => {
     const body = req.body;

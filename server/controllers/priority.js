@@ -1,4 +1,4 @@
-const Priority = require('../db/models/priority-model');
+const Priority = require('../db/models/priority');
 
 const createPriority = async (req, res) => {
     const body = req.body;

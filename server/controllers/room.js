@@ -1,4 +1,4 @@
-const Room = require('../db/models/room-model');
+const Room = require('../db/models/room');
 
 const createRoom = (req, res) => {
     const body = req.body;

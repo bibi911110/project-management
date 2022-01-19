@@ -1,6 +1,6 @@
 const express = require('express');
 const verifyToken = require('../db/verifyToken');
-const KanbanTypeController = require('../controllers/kanbantype-controller');
+const KanbanTypeController = require('../controllers/kanbantype');
 
 const router = express.Router();
 

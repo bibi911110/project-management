@@ -1,4 +1,4 @@
-const IssueFileupload = require('../db/models/issue-fileupload-model');
+const IssueFileupload = require('../db/models/issue-fileupload');
 
 const uploadFile = async (req, res) => {
     const newIssueFile = new IssueFileupload();

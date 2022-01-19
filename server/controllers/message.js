@@ -1,5 +1,5 @@
-const getUserByMail = require('./user-controller');
-const Message = require('../db/models/message-model');
+const getUserByMail = require('./user');
+const Message = require('../db/models/message');
 
 const createMessage = (req, res) => {
     const body = req.body;

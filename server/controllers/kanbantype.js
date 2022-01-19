@@ -1,4 +1,4 @@
-const KanbanType = require('../db/models/kanbantype-model');
+const KanbanType = require('../db/models/kanbantype');
 
 const createKanbanType = async (req, res) => {
     const body = req.body;
